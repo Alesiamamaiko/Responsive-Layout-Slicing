@@ -4,5 +4,57 @@ body {
     font-family: 'Poppins', 'Arial', sans-serif;
 }
 
+.container {
+    margin: 0 auto; /*не работает, только если header flex прописать*/
+    padding: 0 30px;
+    max-width: 1230px;    
+}
+
+.header {
+    padding-top: 46px;
+    background-color: #F1F1F1;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo {
+    position: relative;
+    padding: 0 12px 3px 0;
+    font-size: 32px;
+    line-height: 1;
+    font-weight: 700;
+    color: #000000;
+}
+
+.logo::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #FDA300;
+    border-radius: 50%;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+}
+
+.nav-link {       
+    font-size: 14px;
+    font-weight: 500;
+    color:#000000;
+}
+
+.nav-link.active {
+    color: #606060;
+}
 
 
