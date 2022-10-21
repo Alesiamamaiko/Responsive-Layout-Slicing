@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    margin: 0 auto; /*не работает, только если header flex прописать*/
+    margin: 0 auto; 
     padding: 0 30px;
     max-width: 1230px;    
 }
@@ -13,9 +13,11 @@ body {
 .header {
     padding-top: 46px;
     background-color: #F1F1F1;
+    color:#000000;
 }
 
 .header-nav {
+    margin-bottom: 76px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -57,4 +59,26 @@ body {
     color: #606060;
 }
 
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header-content {
+    margin-top: 124px;
+    max-width: 500px;
+}
+
+.header-title {
+    margin-bottom: 20px;
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.header-description {
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 400; 
+}
 
