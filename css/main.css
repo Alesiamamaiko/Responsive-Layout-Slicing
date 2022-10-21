@@ -79,6 +79,31 @@ body {
 .header-description {
     font-size: 14px;
     line-height: 2;
-    font-weight: 400; 
+}
+
+.services {
+    padding: 90px 0;
+    color: #000000;
+}
+
+.services-row {
+    display: flex;
+    column-gap: 30px;
+}
+
+.service-card-img {
+    margin-bottom: 30px;
+}
+
+.service-card-title {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.service-card-description {
+    font-size: 14px;
+    line-height: 2; 
 }
 
