@@ -107,3 +107,37 @@ body {
     line-height: 2; 
 }
 
+.portfolio {
+    padding: 90px 0;  
+    background-color: #F1F1F1;
+    color: #070707;
+}
+
+.portfolio-title {
+    margin-bottom: 70.33px;
+    font-size: 34px;
+    font-weight: 600;
+    text-align: center; 
+}
+
+.portfolio-project {
+    text-align: center;
+}
+
+.portfolio-project + .portfolio-project {
+    margin-top: 90px;
+}
+
+.portfolio-project-img {
+    margin-bottom: 40px;
+}
+
+.portfolio-project-title {  
+    font-size: 18px;
+}
+
+.portfolio-project-title a {
+    color: #070707;
+    text-decoration: underline solid 1px;
+}
+
