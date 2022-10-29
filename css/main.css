@@ -10,6 +10,7 @@ body {
     max-width: 1230px;    
 }
 
+
 .header {
     padding-top: 46px;
     background-color: #F1F1F1;
@@ -81,6 +82,7 @@ body {
     line-height: 2;
 }
 
+
 .services {
     padding: 90px 0;
     color: #000000;
@@ -106,6 +108,7 @@ body {
     font-size: 14px;
     line-height: 2; 
 }
+
 
 .portfolio {
     padding: 90px 0;  
@@ -141,3 +144,59 @@ body {
     text-decoration: underline solid 1px;
 }
 
+
+.contacts {
+    padding: 90px 0;
+    text-align: center;
+}
+
+.contacts-title {
+    margin-bottom: 40px;
+    font-size: 34px;
+    font-weight: 600;
+    color: #070707;
+}
+
+.contacts-description { 
+    margin: 0 auto 40px;
+    max-width: 296px;
+    font-size: 18px;
+    color: #070707;
+}
+
+.contacts-button-wrapper {
+    margin-bottom: 80px;
+}
+
+.contacts-button {
+    display: inline-block;
+    padding: 7px 23px;
+    background-color: #070707; 
+    border-radius: 21px;
+    font-size: 18px;
+    color: #FFFFFF;
+
+    transition: background-color 0.1s ease-in, top 0.1s ease-in;
+}
+
+.contacts-button:hover, .contacts-button:focus {
+    background-color: #565656; 
+}
+
+.contacts-button:active {
+    position: relative;
+    top: 1px;
+}
+
+.contacts-socials-wrapper {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    column-gap: 60px;
+}
+
+.contacts-footer {
+    font-size: 14px;
+    color: #828282;
+}
