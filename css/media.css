@@ -1,0 +1,36 @@
+@media (max-width: 1230px) {
+    .nav-list {
+        display: none;
+    }
+
+    .nav-button {
+        display: block; 
+        position: fixed; 
+        top: 46px;
+        right: 30px;
+    }
+
+    .nav.open .nav-list {
+        position: fixed; 
+        top: 0;
+        bottom: 0;
+        left: 0; 
+        right: 0;
+        background-color: #FFFFFF;
+
+        padding: 46px 0 0 30px; 
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px; 
+    }
+
+    .nav-link {
+        font-size: 34px;
+        font-weight: 600;
+        color:#828282;
+    }
+
+    .nav-link.active {
+        color:#090909;
+    }
+}
