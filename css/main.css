@@ -141,11 +141,14 @@ body {
 
 .portfolio-project-title {  
     font-size: 18px;
+    line-height: 1.5;   
 }
 
 .portfolio-project-title a {
+    display: inline-block;
     color: #070707;
-    text-decoration: underline solid 1px;
+    border-bottom: 1px solid;    
+    line-height: 0.85;
 }
 
 
