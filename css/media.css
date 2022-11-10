@@ -73,12 +73,25 @@
         min-width: 234px;
         max-width: 370px;
     }
+
+
+    .portfolio { 
+        padding: 85px 0;
+    }
+
+    .portfolio-title { 
+        margin-bottom: 60px;
+    }
+
+    .portfolio-project + .portfolio-project { 
+        margin-top: 80px;
+    }
 }
 
 
 @media (max-width: 700px) {
     .header-content { 
-        min-width: 315px;  
+        min-width: 307px;  
         text-align: left; 
    } 
 
@@ -95,7 +108,7 @@
         padding: 0 40px;
    }
 
-
+   
    .services { 
         padding: 60px 0;
     }
@@ -103,6 +116,29 @@
    .service-card { 
         min-width: 315px;
         max-width: 480px;
+    }
+
+
+    .portfolio {
+        padding: 60px 0;
+        color: #000000;
+    }
+
+    .portfolio-title {
+        margin-bottom: 50px;
+    }
+
+    .portfolio-project + .portfolio-project {
+        margin-top: 55px;
+    }
+
+    .portfolio-project-img {
+        margin-bottom: 30px;
+        min-width: 300px;
+    }
+
+    .portfolio-project-title {
+        min-width: 300px;  
     }
 }
 
