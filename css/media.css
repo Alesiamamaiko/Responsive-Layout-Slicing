@@ -86,6 +86,15 @@
     .portfolio-project + .portfolio-project { 
         margin-top: 80px;
     }
+
+
+    .contacts {
+        padding: 80px 0;
+    }
+
+    .contacts-button-wrapper {
+        margin-bottom: 75px;
+    }
 }
 
 
@@ -93,7 +102,7 @@
     .header-content { 
         min-width: 307px;  
         text-align: left; 
-   } 
+    } 
 
     .header-title {
         font-size: 34px;
@@ -104,9 +113,9 @@
         font-size: 28px;
     }
 
-   .header-img {
+    .header-img {
         padding: 0 40px;
-   }
+    }
 
    
    .services { 
@@ -139,6 +148,28 @@
 
     .portfolio-project-title {
         min-width: 300px;  
+    }
+
+
+    .contacts {
+        padding: 60px 0;
+    }
+
+    .contacts-title {
+        margin-bottom: 20px;
+    }
+
+    .contacts-description { 
+        margin-bottom: 20px; 
+    }
+
+    .contacts-button-wrapper {
+        margin-bottom: 70px;
+    }
+
+    .contacts-socials-wrapper {
+        margin-bottom: 20px;
+        column-gap: 51px; 
     }
 }
 
