@@ -12,6 +12,8 @@
     
     <link href="./css/main.css" rel="stylesheet">
     <link href="./css/media.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
    <header class="header">
@@ -34,12 +36,12 @@
             </div>
 
             <div class="header-row">
-                <div class="header-content">
+                <div class="header-content" data-aos="fade-up-right">
                     <h1 class="header-title">Kelvin Kramer <br> <span>Designer & Developer</span></h1>
                     <p class="header-description">I'm a portrait, fashion and lifestyle photographer living In New York City. During my thirteen year tenure here.</p>
                 </div>
-                
-                <div class="header-img">
+
+                <div class="header-img" data-aos="fade-left">
                     <picture>
                         <source media="(max-width: 700px)" srcset="./img/header/hero-mobile.png">
                         <img src="./img/header/hero.png" alt="hero"/>
@@ -54,21 +56,21 @@
         <div class="container">
             <div class="services-row">
 
-                <div class="service-card">
+                <div class="service-card" data-aos="fade-down">
                     <img class="service-card-img" 
                     src="./img/services/UI-design.svg" 
                     alt="UI/UX Design"/>
                     <h2 class="service-card-title">UI/UX Design</h2>
                     <p class="service-card-description">Our design is translated into comprehensive digital environments built on latest development standards.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card" data-aos="fade-down">
                     <img class="service-card-img" 
                     src="./img/services/development.svg" 
                     alt="Development"/>
                     <h2 class="service-card-title">Development</h2>
                     <p class="service-card-description">Our design is translated into comprehensive digital environments built on latest development standards.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card" data-aos="fade-down">
                     <img class="service-card-img" 
                     src="./img/services/software-testing.svg" 
                     alt="Software testing"/>
@@ -84,19 +86,19 @@
         <div class="container">
             <h3 class="portfolio-title">Portfolio</h3>
             
-            <div class="portfolio-project">
+            <div class="portfolio-project" data-aos="flip-up">
                 <img class="portfolio-project-img"
                 src="./img/portfolio/fashion-store.jpg"
                 alt="fashion-store"/>
                 <h4 class="portfolio-project-title"><a href="">Online fashion store - Homepage</a></h4>
             </div>
-            <div class="portfolio-project">
+            <div class="portfolio-project" data-aos="flip-up">
                 <img class="portfolio-project-img"
                 src="./img/portfolio/reebok-store.jpg"
                 alt="reebok-store"/>
                 <h4 class="portfolio-project-title"><a href="">Reebok Store - Concept</a></h4>
             </div>
-            <div class="portfolio-project">
+            <div class="portfolio-project" data-aos="flip-up">
                 <img class="portfolio-project-img"
                 src="./img/portfolio/braun-page.jpg"
                 alt="braun-page"/>
@@ -109,31 +111,36 @@
    <footer class="contacts">
         <div class="container">
             <h3 class="contacts-title">Contacts</h3>
-            <p class="contacts-description">Want to know more or just chat? You are welcome!</p>
+            <p class="contacts-description" data-aos="fade-down">Want to know more or just chat? You are welcome!</p>
 
-            <div class="contacts-button-wrapper">
+            <div class="contacts-button-wrapper" data-aos="fade-down">
                 <a href="" class="contacts-button">Send message</a>
             </div>
 
-            <div class="contacts-socials-wrapper">
-                    <a href="" class="contacts-social-link">
-                        <img src="./img/socials/LinkedIn.svg" alt="LinkedIn"/>  
-                    </a>
-                    <a href="" class="contacts-social-link">
-                        <img src="./img/socials/Instargam.svg" alt="Instagram"/>
-                    </a>
-                    <a href="" class="contacts-social-link">
-                        <img src="./img/socials/Behance.svg" alt="Behance"/>
-                    </a>
-                    <a href="" class="contacts-social-link">
-                        <img src="./img/socials/Dribble.svg" alt="Dribble"/>
-                    </a>
+            <div class="contacts-socials-wrapper" data-aos="zoom-in">
+                <a href="" class="contacts-social-link">
+                    <img src="./img/socials/LinkedIn.svg" alt="LinkedIn"/>  
+                </a>
+                <a href="" class="contacts-social-link">
+                    <img src="./img/socials/Instargam.svg" alt="Instagram"/>
+                </a>
+                <a href="" class="contacts-social-link">
+                    <img src="./img/socials/Behance.svg" alt="Behance"/>
+                </a>
+                <a href="" class="contacts-social-link">
+                    <img src="./img/socials/Dribble.svg" alt="Dribble"/>
+                </a>
             </div> 
 
-            <p class="contacts-footer">Like me on <br> LinkedIn, Instagram, Behance, Dribble</p>   
+            <div class="contacts-footer" data-aos="fade-up">
+                <p>Like me on <br> LinkedIn, Instagram, Behance, Dribble</p> 
+            </div>  
         </div>
    </footer>
 
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
     <script src="./js/main.js"></script>
 </body>
 </html>

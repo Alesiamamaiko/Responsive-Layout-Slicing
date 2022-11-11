@@ -9,3 +9,5 @@ navButton.onclick = () => {
         navButtonImg.src = "./img/icons/nav-open.svg";
     }
 };
+
+AOS.init();
