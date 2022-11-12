@@ -1,4 +1,8 @@
 @media (max-width: 1230px) {
+    .container {
+        padding: 0 30px;
+    }
+
     .nav-list {
         display: none;
     }
