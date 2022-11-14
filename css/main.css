@@ -45,6 +45,15 @@ body {
     border-radius: 50%;
 }
 
+.logo:hover {
+    color:#565656;
+}
+
+.logo:active {
+    position: relative;
+    top: 1px;
+}
+
 .nav-list {
     display: flex;
     column-gap: 50px;
@@ -58,6 +67,10 @@ body {
 
 .nav-link.active {
     color: #606060;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid;
 }
 
 .nav-button {
@@ -152,6 +165,10 @@ body {
     line-height: 0.85;
 }
 
+.portfolio-project-title a:hover {
+    color:#565656;
+}
+
 
 .contacts {
     padding: 90px 0;
@@ -202,6 +219,16 @@ body {
     justify-content: center; 
     align-items: center;
     column-gap: 60px;
+}
+
+.contacts-social-link:hover {
+    background-color:#F1F1F1;
+    border-radius: 5px;
+}
+
+.contacts-social-link:active {
+    position: relative;
+    top: 1px;
 }
 
 .contacts-footer {
