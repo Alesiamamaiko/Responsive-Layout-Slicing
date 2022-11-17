@@ -178,6 +178,10 @@
         margin-bottom: 70px;
     }
 
+    .modal.active .modal-content {
+        padding: 35px 50px; 
+    }
+
     .contacts-socials-wrapper {
         margin-bottom: 20px;
         column-gap: 51px; 
