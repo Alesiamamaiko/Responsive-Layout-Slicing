@@ -12,6 +12,7 @@
     
     <link href="./css/main.css" rel="stylesheet">
     <link href="./css/media.css" rel="stylesheet">
+    <link href="./css/modal.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -113,8 +114,17 @@
             <h3 class="contacts-title">Contacts</h3>
             <p class="contacts-description" data-aos="fade-down">Want to know more or just chat? You are welcome!</p>
 
-            <div class="contacts-button-wrapper" data-aos="fade-down">
-                <a href="" class="contacts-button">Send message</a>
+            <button class="contacts-button-wrapper" type="button" data-aos="fade-down">
+                <p class="contacts-button">Send message</p>
+            </button>
+
+            <div class="modal">
+                <form class="modal-content">
+                    <p class="modal-title">Contact me</p>
+                    <input class="modal-email" type="text" placeholder="Email adress">
+                    <textarea class="modal-message" placeholder="Message"></textarea>
+                    <button class="modal-close-button" type="button"><p class="close-button">Submit</p></button>
+                </form>
             </div>
 
             <div class="contacts-socials-wrapper" data-aos="zoom-in">
@@ -129,7 +139,7 @@
                 <a href="https://www.behance.net/" target="_blank" class="contacts-social-link">
                     <img src="./img/socials/Behance.svg" alt="Behance"/>
                 </a>
-                
+
                 <a href="https://dribbble.com/" target="_blank" class="contacts-social-link">
                     <img src="./img/socials/Dribbble.svg" alt="Dribbble"/>
                 </a>
@@ -142,6 +152,7 @@
    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
+    <script src="./js/modal.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>

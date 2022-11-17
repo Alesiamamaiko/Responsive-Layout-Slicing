@@ -194,7 +194,6 @@ body {
 }
 
 .contacts-button {
-    display: inline-block;
     padding: 7px 23px;
     background-color: #070707; 
     border-radius: 21px;
@@ -211,6 +210,10 @@ body {
 .contacts-button:active {
     position: relative;
     top: 1px;
+}
+
+.modal {
+    display: none;
 }
 
 .contacts-socials-wrapper {
